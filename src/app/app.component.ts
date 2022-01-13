@@ -17,7 +17,7 @@ import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   title = 'tomtestin';
-  testomegindexVisible=false;
+  testtomegindexVisible=false;
 
   indexForm!: FormGroup;
 
@@ -25,7 +25,7 @@ export class AppComponent {
     this.indexForm =this.formBuilder.group ( {
     tomeg :[''],
     magassag :[''],
-    testomegindex :['']
+    testtomegindex :['']
   });
 }
 
@@ -36,12 +36,12 @@ export class AppComponent {
   onClickSzamit(){
     let tomeg = Number(this.indexForm.value.tomeg);
     let magassag = Number(this.indexForm.value.magassag);
-    let testomegindex = tomeg/Math.pow(magassag/100,2);
-    testomegindex=Math.round(testomegindex*10)/10;
-    this.indexForm.patchValue({testomegindex:testomegindex});
+    let testtomegindex = tomeg/Math.pow(magassag/100,2);
+    testtomegindex=Math.round(testtomegindex*10)/10;
+    this.indexForm.patchValue({testtomegindex:testtomegindex});
 
-    console.log(testomegindex);
-    this.testomegindexVisible=true;
+    console.log(testtomegindex);
+    this.testtomegindexVisible=true;
     
   }
 
