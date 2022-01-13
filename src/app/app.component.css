@@ -1,0 +1,47 @@
+/*
+* File: appcomponents.css
+* Author: Rohrbacher Marcell
+* Copyright: 2022, Rohrbacher Marcell
+* Group: Szoft II/N
+* Date: 2022-01-013
+* Github: https://github.com/Marci971104
+*/
+
+@import "~bootstrap/dist/css/bootstrap.css";
+
+
+#start{
+    background-color: black;
+    font-size: large;
+    padding-bottom: 5px;
+    margin: 10px;
+    color: white;
+}
+button{
+    color:whitesmoke;
+    background-color: red;
+    font-size: 25px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 20px;
+  
+
+  
+}
+label{
+    padding: 10px;
+    
+    
+
+
+}
+input{
+    border: solid red 3px;
+}
+h1{
+
+    font-size: 40px;
+    padding: 5px;
+    text-align: center;
+}
+

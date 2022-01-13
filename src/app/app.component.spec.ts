@@ -1,3 +1,12 @@
+/*
+* File: app.component.spen.ts
+* Author: Rohrbacher Marcell
+* Copyright: 2022, Rohrbacher Marcell
+* Group: Szoft II/N
+* Date: 2022-01-013
+* Github: https://github.com/Marci971104
+*/
+
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';

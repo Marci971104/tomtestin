@@ -1,7 +1,16 @@
+/*
+* File: app.module.ts
+* Author: Rohrbacher Marcell
+* Copyright: 2022, Rohrbacher Marcell
+* Group: Szoft II/N
+* Date: 2022-01-013
+* Github: https://github.com/Marci971104
+*/
+
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -10,7 +19,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
